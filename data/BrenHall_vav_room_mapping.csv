@@ -1,0 +1,103 @@
+floorRef,vavName,ahuRef,equipRef,room_number,room_type,room_capacity,room_bucket
+Bren Hall Floor-02,VAV2.1,Bren Hall AH-01,Bren Hall 2222,2222,meeting room,,S
+Bren Hall Floor-02,VAV2.10,Bren Hall AH-02,Bren Hall 2088,2088,office,,S
+Bren Hall Floor-02,VAV2.11,Bren Hall AH-02,Bren Hall 2082,2082,office,,S
+Bren Hall Floor-02,VAV2.12,Bren Hall AH-02,Bren Hall 2076,2076,office,,S
+Bren Hall Floor-02,VAV2.13,Bren Hall AH-02,Bren Hall 2068,2068,office,,S
+Bren Hall Floor-02,VAV2.14,Bren Hall AH-02,Bren Hall 2058,2058,office,,S
+Bren Hall Floor-02,VAV2.15,Bren Hall AH-02,Bren Hall 2052,2052,office,,S
+Bren Hall Floor-02,VAV2.16,Bren Hall AH-02,Bren Hall 2038,2038,office,,S
+Bren Hall Floor-02,VAV2.17,Bren Hall AH-02,Bren Hall 2032,2032,meeting room,,S
+Bren Hall Floor-02,VAV2.19,Bren Hall AH-01,Bren Hall 2204,2204,office,,S
+Bren Hall Floor-02,VAV2.2,Bren Hall AH-01,Bren Hall 2228,2228,office,,S
+Bren Hall Floor-02,VAV2.20,Bren Hall AH-01,Bren Hall 2206,2206,office,,S
+Bren Hall Floor-02,VAV2.21,Bren Hall AH-01,Bren Hall 2214,2214,office,,S
+Bren Hall Floor-02,VAV2.22,Bren Hall AH-01,Bren Hall 2219,2219,student lab,,S
+Bren Hall Floor-02,VAV2.23,Bren Hall AH-01,Bren Hall 2231,2231,student lab,,M
+Bren Hall Floor-02,VAV2.25,Bren Hall AH-01,Bren Hall 2209,2209,student lab,,M
+Bren Hall Floor-02,VAV2.27,Bren Hall AH-02,Bren Hall 2059,2059,student lab,,S
+Bren Hall Floor-02,VAV2.28,Bren Hall AH-02,Bren Hall 2065,2065,meeting room,,S
+Bren Hall Floor-02,VAV2.29,Bren Hall AH-02,Bren Hall 2081,2081,student lab,,S
+Bren Hall Floor-02,VAV2.30,Bren Hall AH-02,Bren Hall 2051,2051,student lab,,S
+Bren Hall Floor-02,VAV2.35,Bren Hall AH-02,Bren Hall 2018,2018,telecom,,S
+Bren Hall Floor-02,VAV2.4,Bren Hall AH-01,Bren Hall 2243,2243,student lab,,M
+Bren Hall Floor-02,VAV2.5,Bren Hall AH-01,Bren Hall 2011,2011,conference room,,M
+Bren Hall Floor-02,VAV2.6,Bren Hall AH-02,Bren Hall 2059,2059,student lab,,M
+Bren Hall Floor-02,VAV2.7,Bren Hall AH-02,Bren Hall 2069,2069,student lab,,M
+Bren Hall Floor-02,VAV2.8,Bren Hall AH-02,Bren Hall 2099,2099,student lab,,M
+Bren Hall Floor-02,VAV2.9,Bren Hall AH-02,Bren Hall 2091,2091,office,,S
+Bren Hall Floor-03,VAV3.1,Bren Hall AH-01,Bren Hall 3222,3222,office,,S
+Bren Hall Floor-03,VAV3.11,Bren Hall AH-02,Bren Hall 3082,3082,telecom,,S
+Bren Hall Floor-03,VAV3.12,Bren Hall AH-02,Bren Hall 3076,3076,telecom,,S
+Bren Hall Floor-03,VAV3.13,Bren Hall AH-02,Bren Hall 3068,3068,telecom,,S
+Bren Hall Floor-03,VAV3.14,Bren Hall AH-02,Bren Hall 3058,3058,office,,S
+Bren Hall Floor-03,VAV3.15,Bren Hall AH-02,Bren Hall 3052,3052,office,,S
+Bren Hall Floor-03,VAV3.16,Bren Hall AH-02,Bren Hall 3038,3038,office,,S
+Bren Hall Floor-03,VAV3.17,Bren Hall AH-02,Bren Hall 3032,3032,meeting room,,S
+Bren Hall Floor-03,VAV3.18,Bren Hall AH-01,Bren Hall 3026,3026,office,,S
+Bren Hall Floor-03,VAV3.2,Bren Hall AH-01,Bren Hall 3228,3228,office,,S
+Bren Hall Floor-03,VAV3.20,Bren Hall AH-01,Bren Hall 3206,3206,office,,S
+Bren Hall Floor-03,VAV3.21,Bren Hall AH-01,Bren Hall 3214,3214,office,,S
+Bren Hall Floor-03,VAV3.22,Bren Hall AH-01,Bren Hall 3219,3219,student lab,,S
+Bren Hall Floor-03,VAV3.23,Bren Hall AH-01,Bren Hall 3231,3231,student lab,,S
+Bren Hall Floor-03,VAV3.24,Bren Hall AH-01,Bren Hall 3211,3211,student lab,,M
+Bren Hall Floor-03,VAV3.25,Bren Hall AH-01,Bren Hall 3209,3209,student lab,,M
+Bren Hall Floor-03,VAV3.26,Bren Hall AH-01,Bren Hall 3013,3013,meeting room,,S
+Bren Hall Floor-03,VAV3.27,Bren Hall AH-02,Bren Hall 3059,3059,student lab,,M
+Bren Hall Floor-03,VAV3.28,Bren Hall AH-02,Bren Hall 3065,3065,meeting room,,S
+Bren Hall Floor-03,VAV3.29,Bren Hall AH-02,Bren Hall 3081,3081,student lab,,S
+Bren Hall Floor-03,VAV3.3,Bren Hall AH-01,Bren Hall 3234,3234,office,,S
+Bren Hall Floor-03,VAV3.30,Bren Hall AH-02,Bren Hall 3051,3051,student lab,,S
+Bren Hall Floor-03,VAV3.32,Bren Hall AH-01,Bren Hall 3019,3019,student lab,,S
+Bren Hall Floor-03,VAV3.35,Bren Hall AH-02,Bren Hall 3018,3018,telecom,,S
+Bren Hall Floor-03,VAV3.4,Bren Hall AH-01,Bren Hall 3243,3243,student lab,,S
+Bren Hall Floor-03,VAV3.5,Bren Hall AH-01,Bren Hall 3011,3011,conference room,,M
+Bren Hall Floor-03,VAV3.6,Bren Hall AH-02,Bren Hall 3059,3059,student lab,,M
+Bren Hall Floor-03,VAV3.7,Bren Hall AH-02,Bren Hall 3069,3069,student lab,,M
+Bren Hall Floor-03,VAV3.8,Bren Hall AH-02,Bren Hall 3099,3099,student lab,,M
+Bren Hall Floor-03,VAV3.9,Bren Hall AH-02,Bren Hall 3091,3091,telecom,,S
+Bren Hall Floor-04,VAV4.17,Bren Hall AH-02,Bren Hall 4032,4032,meeting room,,S
+Bren Hall Floor-04,VAV4.22,Bren Hall AH-01,Bren Hall 4219,4219,student lab,,S
+Bren Hall Floor-04,VAV4.23,Bren Hall AH-01,Bren Hall 4231,4231,student lab,,M
+Bren Hall Floor-04,VAV4.24,Bren Hall AH-01,Bren Hall 4211,4211,student lab,,M
+Bren Hall Floor-04,VAV4.25,Bren Hall AH-01,Bren Hall 4209,4209,student lab,,M
+Bren Hall Floor-04,VAV4.26,Bren Hall AH-01,Bren Hall 4013,4013,meeting room,,S
+Bren Hall Floor-04,VAV4.27,Bren Hall AH-02,Bren Hall 4059,4059,student lab,,M
+Bren Hall Floor-04,VAV4.28,Bren Hall AH-02,Bren Hall 4065,4065,meeting room,,S
+Bren Hall Floor-04,VAV4.29,Bren Hall AH-02,Bren Hall 4081,4081,student lab,,S
+Bren Hall Floor-04,VAV4.30,Bren Hall AH-02,Bren Hall 4051,4051,student lab,,S
+Bren Hall Floor-04,VAV4.4,Bren Hall AH-01,Bren Hall 4243,4243,student lab,,M
+Bren Hall Floor-04,VAV4.5,Bren Hall AH-01,Bren Hall 4011,4011,conference room,,M
+Bren Hall Floor-04,VAV4.6,Bren Hall AH-02,Bren Hall 4059,4059,student lab,,M
+Bren Hall Floor-04,VAV4.7,Bren Hall AH-02,Bren Hall 4069,4069,student lab,,M
+Bren Hall Floor-04,VAV4.8,Bren Hall AH-02,Bren Hall 4099,4099,student lab,,M
+Bren Hall Floor-05,VAV5.23,Bren Hall AH-01,Bren Hall 5231,5231,student lab,,M
+Bren Hall Floor-05,VAV5.24,Bren Hall AH-01,Bren Hall 5211,5211,student lab,,M
+Bren Hall Floor-05,VAV5.25,Bren Hall AH-01,Bren Hall 5209,5209,student lab,,M
+Bren Hall Floor-05,VAV5.27,Bren Hall AH-02,Bren Hall 5059,5059,student lab,,M
+Bren Hall Floor-05,VAV5.28,Bren Hall AH-02,Bren Hall 5065,5065,meeting room,,S
+Bren Hall Floor-05,VAV5.29,Bren Hall AH-02,Bren Hall 5081,5081,student lab,,S
+Bren Hall Floor-05,VAV5.30,Bren Hall AH-02,Bren Hall 5051,5051,student lab,,S
+Bren Hall Floor-05,VAV5.4,Bren Hall AH-01,Bren Hall 5243,5243,student lab,,M
+Bren Hall Floor-05,VAV5.5,Bren Hall AH-01,Bren Hall 5011,5011,conference room,,M
+Bren Hall Floor-05,VAV5.6,Bren Hall AH-02,Bren Hall 5059,5059,student lab,,M
+Bren Hall Floor-05,VAV5.7,Bren Hall AH-02,Bren Hall 5069,5069,student lab,,M
+Bren Hall Floor-05,VAV5.8,Bren Hall AH-02,Bren Hall 5099,5099,student lab,,M
+Bren Hall Floor-06,VAV6.4,Bren Hall AH-01,Bren Hall 6011,6011,conference room,,L
+Bren Hall Floor-06,VAV6.5,Bren Hall AH-01,Bren Hall 6011,6011,conference room,,L
+Bren Hall Floor-01,VAV1.1,Bren Hall AH-01,Bren Hall 1100,1100,lecture room,246,XL
+Bren Hall Floor-01,VAV1.10,Bren Hall AH-02,Bren Hall 1500,1500,classroom,65,M
+Bren Hall Floor-01,VAV1.11,Bren Hall AH-02,Bren Hall 1600,1600,lecture room,124,L
+Bren Hall Floor-01,VAV1.12,Bren Hall AH-02,Bren Hall 1600,1600,lecture room,124,L
+Bren Hall Floor-01,VAV1.13,Bren Hall AH-02,Bren Hall 1433,1433,classroom,24,S
+Bren Hall Floor-01,VAV1.14,Bren Hall AH-02,Bren Hall 1431,1431,classroom,28,S
+Bren Hall Floor-01,VAV1.15,Bren Hall AH-02,Bren Hall 1429,1429,classroom,28,S
+Bren Hall Floor-01,VAV1.16,Bren Hall AH-02,Bren Hall 1427,1427,classroom,28,S
+Bren Hall Floor-01,VAV1.17,Bren Hall AH-02,Bren Hall 1425,1425,classroom,24,S
+Bren Hall Floor-01,VAV1.18,Bren Hall AH-02,Bren Hall 1423,1423,classroom,21,S
+Bren Hall Floor-01,VAV1.2,Bren Hall AH-01,Bren Hall 1100,1100,lecture room,246,XL
+Bren Hall Floor-01,VAV1.21,Bren Hall AH-01,Bren Hall 1420,1420,classroom,25,S
+Bren Hall Floor-01,VAV1.3,Bren Hall AH-01,Bren Hall 1100,1100,lecture room,246,XL
+Bren Hall Floor-01,VAV1.4,Bren Hall AH-01,Bren Hall 1200,1200,lecture room,52,M
+Bren Hall Floor-01,VAV1.5,Bren Hall AH-01,Bren Hall 1300,1300,lecture room,52,M
+Bren Hall Mechanical Equipment,VAV1.20,Bren Hall AH-01,Bren Hall 1422,1422,classroom,25,S

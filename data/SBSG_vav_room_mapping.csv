@@ -1,0 +1,379 @@
+floorRef,navName,ahuRef,equipRef,room_number,room_type
+S&BS Gateway Floor-00,VAV.001,S&BS Gateway A02,S&BS Gateway G240,G240,Graduate Study Space
+S&BS Gateway Floor-00,VAV.002,S&BS Gateway A02,S&BS Gateway G241,G241,Graduate Study Space
+S&BS Gateway Floor-00,VAV.003,S&BS Gateway A02,S&BS Gateway G241,G241,Graduate Study Space
+S&BS Gateway Floor-00,VAV.004,S&BS Gateway A02,S&BS Gateway G200,G200,Writing Center
+S&BS Gateway Floor-00,VAV.005,S&BS Gateway A02,S&BS Gateway G107,G107,Support Room
+S&BS Gateway Floor-00,VAV.005,S&BS Gateway A02,S&BS Gateway G107,G107,Support Room
+S&BS Gateway Floor-00,VAV.006,S&BS Gateway A02,S&BS Gateway 105,105,Support Room
+S&BS Gateway Floor-00,VAV.007,S&BS Gateway A02,,Unassigned,Unassigned
+S&BS Gateway Floor-00,VAV.007A,S&BS Gateway A02,,Unassigned,Unassigned
+S&BS Gateway Floor-00,VAV.008,S&BS Gateway A02,S&BS Gateway Corridor,Corridor,Corridor
+S&BS Gateway Floor-00,VAV.009,S&BS Gateway A02,S&BS Gateway G211,G211,Graduate Office
+S&BS Gateway Floor-00,VAV.009,S&BS Gateway A02,G221,G221,Graduate Office
+S&BS Gateway Floor-00,VAV.009,S&BS Gateway A02,G231(T),G231,Graduate Office
+S&BS Gateway Floor-00,VAV.010,S&BS Gateway A02,S&BS Gateway G211,G211,Graduate Office
+S&BS Gateway Floor-00,VAV.010,S&BS Gateway A02,G221,G221,Graduate Office
+S&BS Gateway Floor-00,VAV.010,S&BS Gateway A02,G231(T),G231,Graduate Office
+S&BS Gateway Floor-00,VAV.011,S&BS Gateway A02,S&BS Gateway 203,203,Faculty Office
+S&BS Gateway Floor-00,VAV.011,S&BS Gateway A02,G205,G205,Faculty Office
+S&BS Gateway Floor-00,VAV.011,S&BS Gateway A02,G207(T),G207,Faculty Office
+S&BS Gateway Floor-00,VAV.011,S&BS Gateway A02,G207A,G207A,Faculty Office
+S&BS Gateway Floor-00,VAV.012,S&BS Gateway A02,S&BS Gateway G201B,G201B,Office
+S&BS Gateway Floor-00,VAV.012,S&BS Gateway A02,S&BS Gateway G201B,G201B,Office
+S&BS Gateway Floor-00,VAV.013,S&BS Gateway A02,S&BS Gateway 201A,201A,Office
+S&BS Gateway Floor-00,VAV.014,S&BS Gateway A02,S&BS Gateway Corridor,Corridor,Corridor
+S&BS Gateway Floor-00,VAV.015,S&BS Gateway A02,S&BS Gateway G240,G240,Graduate Study Space
+S&BS Gateway Floor-00,VAV.016,S&BS Gateway A02,S&BS Gateway 201,201,Office
+S&BS Gateway Floor-01,VAV.101,S&BS Gateway A02,S&BS Gateway 1242(T),1242,Graduate Study Space
+S&BS Gateway Floor-01,VAV.101,S&BS Gateway A02,1244,1244,Graduate Study Space
+S&BS Gateway Floor-01,VAV.102,S&BS Gateway A02,S&BS Gateway 1240,1240,Graduate Study Space
+S&BS Gateway Floor-01,VAV.103,S&BS Gateway A02,S&BS Gateway 1240,1240,Graduate Study Space
+S&BS Gateway Floor-01,VAV.104,S&BS Gateway A02,S&BS Gateway 1230(T),1230,Graduate Office
+S&BS Gateway Floor-01,VAV.104,S&BS Gateway A02,1232,1232,Graduate Office
+S&BS Gateway Floor-01,VAV.104,S&BS Gateway A02,1234,1234,Graduate Office
+S&BS Gateway Floor-01,VAV.105,S&BS Gateway A02,S&BS Gateway 1220,1220,Seminar Room
+S&BS Gateway Floor-01,VAV.106,S&BS Gateway A02,S&BS Gateway 1200,1200,General Assignment Classroom
+S&BS Gateway Floor-01,VAV.107,S&BS Gateway A02,S&BS Gateway 1100,1100,Lecture Hall
+S&BS Gateway Floor-01,VAV.108,S&BS Gateway A02,S&BS Gateway 1241,1241,Graduate Study Space
+S&BS Gateway Floor-01,VAV.109,S&BS Gateway A02,S&BS Gateway 1241,1241,Graduate Study Space
+S&BS Gateway Floor-01,VAV.110,S&BS Gateway A02,S&BS Gateway 1231,1231,Graduate Office
+S&BS Gateway Floor-01,VAV.111,S&BS Gateway A02,S&BS Gateway 1225,1225,Conference Room
+S&BS Gateway Floor-01,VAV.112,S&BS Gateway A02,S&BS Gateway 1219,1219,Graduate Office
+S&BS Gateway Floor-01,VAV.112,S&BS Gateway A02,1221,1221,Graduate Office
+S&BS Gateway Floor-01,VAV.112,S&BS Gateway A02,1223(T),1223,Graduate Office
+S&BS Gateway Floor-01,VAV.113,S&BS Gateway A02,S&BS Gateway 1205,1205,Faculty Office
+S&BS Gateway Floor-01,VAV.113,S&BS Gateway A02,1207(T),1207,Faculty Office
+S&BS Gateway Floor-01,VAV.113,S&BS Gateway A02,1209,1209,Faculty Office
+S&BS Gateway Floor-01,VAV.113,S&BS Gateway A02,1211,1211,Faculty Office
+S&BS Gateway Floor-01,VAV.114,S&BS Gateway A02,S&BS Gateway 1201,1201,Faculty Office
+S&BS Gateway Floor-01,VAV.114,S&BS Gateway A02,1203(T),1203,Faculty Office
+S&BS Gateway Floor-01,VAV.115,S&BS Gateway A02,S&BS Gateway 1213,1213,Faculty Office
+S&BS Gateway Floor-01,VAV.115,S&BS Gateway A02,1215(T),1215,Faculty Office
+S&BS Gateway Floor-01,VAV.116,S&BS Gateway A02,,Unassigned,Unassigned
+S&BS Gateway Floor-01,VAV.117,S&BS Gateway A01,S&BS Gateway 1317,1317,Faculty Office
+S&BS Gateway Floor-01,VAV.118,S&BS Gateway A01,S&BS Gateway 1321,1321,Faculty Office
+S&BS Gateway Floor-01,VAV.119,S&BS Gateway A01,,Unassigned,Unassigned
+S&BS Gateway Floor-01,VAV.120,S&BS Gateway A01,S&BS Gateway 1517,1517,Graduate Office
+S&BS Gateway Floor-01,VAV.121,S&BS Gateway A01,S&BS Gateway 1331(T),1331,Seminar Room
+S&BS Gateway Floor-01,VAV.121,S&BS Gateway A01,1517A,1517A,Graduate Office
+S&BS Gateway Floor-01,VAV.122,S&BS Gateway A01,S&BS Gateway 1313,1313,Faculty Office
+S&BS Gateway Floor-01,VAV.122,S&BS Gateway A01,1315,1315,Faculty Office
+S&BS Gateway Floor-01,VAV.122,S&BS Gateway A01,1503,1503,Graduate Office
+S&BS Gateway Floor-01,VAV.122,S&BS Gateway A01,1505(T),1505,Graduate Office
+S&BS Gateway Floor-01,VAV.123,S&BS Gateway A01,S&BS Gateway 1507,1507,Graduate Office
+S&BS Gateway Floor-01,VAV.124,S&BS Gateway A01,S&BS Gateway 1511,1511,Graduate Office
+S&BS Gateway Floor-01,VAV.125,S&BS Gateway A01,S&BS Gateway 1517,1517,Graduate Office
+S&BS Gateway Floor-01,VAV.126,S&BS Gateway A01,S&BS Gateway 1307,1307,Faculty Office
+S&BS Gateway Floor-01,VAV.127,S&BS Gateway A01,S&BS Gateway 1311,1311,Faculty Office
+S&BS Gateway Floor-01,VAV.128,S&BS Gateway A01,S&BS Gateway Lobby,Lobby,Lobby
+S&BS Gateway Floor-01,VAV.129,S&BS Gateway A01,S&BS Gateway 1327,1327,Faculty Office
+S&BS Gateway Floor-01,VAV.130,S&BS Gateway A01,S&BS Gateway 1501,1501,Graduate Office
+S&BS Gateway Floor-02,VAV.201,S&BS Gateway A02,S&BS Gateway 2256,2256,Seminar Room
+S&BS Gateway Floor-02,VAV.202,S&BS Gateway A02,S&BS Gateway 2246,2246,Seminar Room
+S&BS Gateway Floor-02,VAV.203,S&BS Gateway A02,S&BS Gateway 2240(T),2240,Graduate Study Space
+S&BS Gateway Floor-02,VAV.203,S&BS Gateway A02,2242,2242,Graduate Office
+S&BS Gateway Floor-02,VAV.203,S&BS Gateway A02,2244,2244,Graduate Office
+S&BS Gateway Floor-02,VAV.203,S&BS Gateway A02,2254,2254,Graduate Office
+S&BS Gateway Floor-02,VAV.203,S&BS Gateway A02,2252,2252,Graduate Office
+S&BS Gateway Floor-02,VAV.204,S&BS Gateway A02,S&BS Gateway 2236,2236,Conference Room
+S&BS Gateway Floor-02,VAV.205,S&BS Gateway A02,S&BS Gateway 2226,2226,Graduate Office
+S&BS Gateway Floor-02,VAV.206,S&BS Gateway A02,S&BS Gateway 2220(T),2220,Seminar Room
+S&BS Gateway Floor-02,VAV.206,S&BS Gateway A02,2222,2222,Graduate Office
+S&BS Gateway Floor-02,VAV.206,S&BS Gateway A02,2224,2224,Graduate Office
+S&BS Gateway Floor-02,VAV.206,S&BS Gateway A02,2232,2232,Graduate Office
+S&BS Gateway Floor-02,VAV.206,S&BS Gateway A02,2234,2234,Graduate Office
+S&BS Gateway Floor-02,VAV.207,S&BS Gateway A02,S&BS Gateway 2200,2200,General Assignment Classroom
+S&BS Gateway Floor-02,VAV.208,S&BS Gateway A02,,Unassigned,Unassigned
+S&BS Gateway Floor-02,VAV.209,S&BS Gateway A02,S&BS Gateway 2200,2200,General Assignment Classroom
+S&BS Gateway Floor-02,VAV.210,S&BS Gateway A02,S&BS Gateway 2261,2261,Graduate Study Space
+S&BS Gateway Floor-02,VAV.210,S&BS Gateway A02,2263,2263,Graduate Study Space
+S&BS Gateway Floor-02,VAV.210,S&BS Gateway A02,2271,2271,Graduate Study Space
+S&BS Gateway Floor-02,VAV.210,S&BS Gateway A02,2273,2273,Graduate Study Space
+S&BS Gateway Floor-02,VAV.210,S&BS Gateway A02,2275(T),2275,Graduate Study Space
+S&BS Gateway Floor-02,VAV.211,S&BS Gateway A02,S&BS Gateway 2277,2277,Graduate Study Space
+S&BS Gateway Floor-02,VAV.211,S&BS Gateway A02,2279(T),2279,Graduate Study Space
+S&BS Gateway Floor-02,VAV.212,S&BS Gateway A02,S&BS Gateway 2255,2255,Seminar Room
+S&BS Gateway Floor-02,VAV.213,S&BS Gateway A02,S&BS Gateway 2249,2249,Seminar Room
+S&BS Gateway Floor-02,VAV.214,S&BS Gateway A02,S&BS Gateway 2241,2241,Graduate Office
+S&BS Gateway Floor-02,VAV.214,S&BS Gateway A02,2243,2243,Graduate Office
+S&BS Gateway Floor-02,VAV.214,S&BS Gateway A02,2245,2245,Graduate Office
+S&BS Gateway Floor-02,VAV.214,S&BS Gateway A02,2247(T),2247,Graduate Office
+S&BS Gateway Floor-02,VAV.214,S&BS Gateway A02,2251,2251,Graduate Office
+S&BS Gateway Floor-02,VAV.214,S&BS Gateway A02,2253,2253,Graduate Office
+S&BS Gateway Floor-02,VAV.215,S&BS Gateway A02,S&BS Gateway 2235,2235,Conference Room
+S&BS Gateway Floor-02,VAV.216,S&BS Gateway A02,S&BS Gateway 2231,2231,Graduate Office
+S&BS Gateway Floor-02,VAV.216,S&BS Gateway A02,2233(T),2233,Graduate Office
+S&BS Gateway Floor-02,VAV.217,S&BS Gateway A02,S&BS Gateway 2223,2223,Graduate Office
+S&BS Gateway Floor-02,VAV.218,S&BS Gateway A02,S&BS Gateway 2213,2213,Faculty Office
+S&BS Gateway Floor-02,VAV.218,S&BS Gateway A02,2215,2215,Faculty Office
+S&BS Gateway Floor-02,VAV.218,S&BS Gateway A02,2217(T),2217,Faculty Office
+S&BS Gateway Floor-02,VAV.218,S&BS Gateway A02,2221,2221,Faculty Office
+S&BS Gateway Floor-02,VAV.219,S&BS Gateway A02,S&BS Gateway 2203,2203,Faculty Office
+S&BS Gateway Floor-02,VAV.219,S&BS Gateway A02,2205,2205,Faculty Office
+S&BS Gateway Floor-02,VAV.219,S&BS Gateway A02,2207,2207,Faculty Office
+S&BS Gateway Floor-02,VAV.219,S&BS Gateway A02,2209(T),2209,Faculty Office
+S&BS Gateway Floor-02,VAV.220,S&BS Gateway A02,S&BS Gateway 2201,2201,Faculty Office
+S&BS Gateway Floor-02,VAV.221,S&BS Gateway A02,S&BS Gateway Lobby,Lobby,Lobby
+S&BS Gateway Floor-02,VAV.222,S&BS Gateway A01,S&BS Gateway 2302(T),2302,Faculty Office
+S&BS Gateway Floor-02,VAV.222,S&BS Gateway A01,2304,2304,Faculty Office
+S&BS Gateway Floor-02,VAV.224,S&BS Gateway A01,S&BS Gateway 2311(T),2311,Faculty Office
+S&BS Gateway Floor-02,VAV.224,S&BS Gateway A01,2313,2313,Faculty Office
+S&BS Gateway Floor-02,VAV.224,S&BS Gateway A01,2315,2315,Faculty Office
+S&BS Gateway Floor-02,VAV.225,S&BS Gateway A01,S&BS Gateway 2306,2306,Faculty Office
+S&BS Gateway Floor-02,VAV.225,S&BS Gateway A01,2308(T),2308,Faculty Office
+S&BS Gateway Floor-02,VAV.225,S&BS Gateway A01,2312. 2314,2312/2314,Faculty Office
+S&BS Gateway Floor-02,VAV.225,S&BS Gateway A01,2316,2316,Faculty Office
+S&BS Gateway Floor-02,VAV.225,S&BS Gateway A01,2318,2318,Faculty Office
+S&BS Gateway Floor-02,VAV.226,S&BS Gateway A01,S&BS Gateway 2322,2322,Faculty Office
+S&BS Gateway Floor-02,VAV.226,S&BS Gateway A01,2324(T),2324,Faculty Office
+S&BS Gateway Floor-02,VAV.226,S&BS Gateway A01,2326,2326,Faculty Office
+S&BS Gateway Floor-02,VAV.226,S&BS Gateway A01,2328,2328,Faculty Office
+S&BS Gateway Floor-02,VAV.226,S&BS Gateway A01,2332,2332,Faculty Office
+S&BS Gateway Floor-02,VAV.226,S&BS Gateway A01,2334,2334,Faculty Office
+S&BS Gateway Floor-02,VAV.227,S&BS Gateway A01,S&BS Gateway 2319,2319,Faculty Office
+S&BS Gateway Floor-02,VAV.227,S&BS Gateway A01,2321,2321,Faculty Office
+S&BS Gateway Floor-02,VAV.228,S&BS Gateway A01,S&BS Gateway 2336,2336,Conference Room
+S&BS Gateway Floor-02,VAV.229,S&BS Gateway A01,S&BS Gateway 2341,2341,Graduate Office
+S&BS Gateway Floor-02,VAV.229,S&BS Gateway A01,E2343(T),2343,Graduate Office
+S&BS Gateway Floor-02,VAV.230,S&BS Gateway A01,S&BS Gateway 2545,2545,Graduate Office
+S&BS Gateway Floor-02,VAV.230,S&BS Gateway A01,2547,2547,Graduate Office
+S&BS Gateway Floor-02,VAV.230,S&BS Gateway A01,2549,2549,Graduate Office
+S&BS Gateway Floor-02,VAV.230,S&BS Gateway A01,2551(T),2551,Graduate Office
+S&BS Gateway Floor-02,VAV.231,S&BS Gateway A01,S&BS Gateway 2542,2542,Graduate Office
+S&BS Gateway Floor-02,VAV.231,S&BS Gateway A01,2544,2544,Graduate Office
+S&BS Gateway Floor-02,VAV.231,S&BS Gateway A01,2546(T),2546,Graduate Office
+S&BS Gateway Floor-02,VAV.231,S&BS Gateway A01,2548,2548,Graduate Office
+S&BS Gateway Floor-02,VAV.231,S&BS Gateway A01,2552,2552,Graduate Office
+S&BS Gateway Floor-02,VAV.231,S&BS Gateway A01,2554,2554,Graduate Office
+S&BS Gateway Floor-02,VAV.232,S&BS Gateway A01,S&BS Gateway 2556,2556,Graduate Office
+S&BS Gateway Floor-02,VAV.232,S&BS Gateway A01,2558,2558,Graduate Office
+S&BS Gateway Floor-02,VAV.232,S&BS Gateway A01,2562,2562,Graduate Office
+S&BS Gateway Floor-02,VAV.232,S&BS Gateway A01,2564,2564,Graduate Office
+S&BS Gateway Floor-02,VAV.232,S&BS Gateway A01,2566(T),2566,Graduate Office
+S&BS Gateway Floor-02,VAV.233,S&BS Gateway A01,S&BS Gateway 2545,2545,Graduate Office
+S&BS Gateway Floor-02,VAV.233,S&BS Gateway A01,2547,2547,Graduate Office
+S&BS Gateway Floor-02,VAV.233,S&BS Gateway A01,2549,2549,Graduate Office
+S&BS Gateway Floor-02,VAV.233,S&BS Gateway A01,2551(T),2551,Graduate Office
+S&BS Gateway Floor-02,VAV.234,S&BS Gateway A01,S&BS Gateway 2323(T),2323,Faculty Office
+S&BS Gateway Floor-02,VAV.234,S&BS Gateway A01,2563,2563,Graduate Office
+S&BS Gateway Floor-02,VAV.235,S&BS Gateway A01,S&BS Gateway 2568,2568,Graduate Office
+S&BS Gateway Floor-02,VAV.2904,S&BS Gateway A01,S&BS Gateway 2904,2904,Conference Room
+S&BS Gateway Floor-03,VAV.301,S&BS Gateway A02,S&BS Gateway 3260,3260,Graduate Study Space
+S&BS Gateway Floor-03,VAV.302,S&BS Gateway A02,S&BS Gateway 3260,3260,Graduate Study Space
+S&BS Gateway Floor-03,VAV.303,S&BS Gateway A02,S&BS Gateway 3240,3240,Graduate Study Space
+S&BS Gateway Floor-03,VAV.304,S&BS Gateway A02,S&BS Gateway 3240,3240,Graduate Study Space
+S&BS Gateway Floor-03,VAV.305,S&BS Gateway A02,S&BS Gateway 3200,3200,General Assignment Classroom
+S&BS Gateway Floor-03,VAV.305,S&BS Gateway A02,3220(T),3220,General Assignment Classroom
+S&BS Gateway Floor-03,VAV.306,S&BS Gateway A02,S&BS Gateway 3251,3251,Seminar Room
+S&BS Gateway Floor-03,VAV.307,S&BS Gateway A02,S&BS Gateway 3247,3247,Graduate Office
+S&BS Gateway Floor-03,VAV.307,S&BS Gateway A02,3249(T),3249,Graduate Office
+S&BS Gateway Floor-03,VAV.308,S&BS Gateway A02,S&BS Gateway 3241,3241,Graduate Office
+S&BS Gateway Floor-03,VAV.309,S&BS Gateway A02,S&BS Gateway 3243,3243,Graduate Office
+S&BS Gateway Floor-03,VAV.309,S&BS Gateway A02,3245,3245,Graduate Office
+S&BS Gateway Floor-03,VAV.310,S&BS Gateway A02,S&BS Gateway 3231,3231,Graduate Office
+S&BS Gateway Floor-03,VAV.311,S&BS Gateway A02,S&BS Gateway 3225,3225,Conference Room
+S&BS Gateway Floor-03,VAV.311,S&BS Gateway A02,3227,3227,Graduate Office
+S&BS Gateway Floor-03,VAV.311,S&BS Gateway A02,3229(T),3229,Graduate Office
+S&BS Gateway Floor-03,VAV.312,S&BS Gateway A02,S&BS Gateway 3223,3223,Graduate Office
+S&BS Gateway Floor-03,VAV.313,S&BS Gateway A02,S&BS Gateway 3240,3240,Graduate Study Space
+S&BS Gateway Floor-03,VAV.314,S&BS Gateway A02,S&BS Gateway 3205,3205,Faculty Office
+S&BS Gateway Floor-03,VAV.314,S&BS Gateway A02,3207,3207,Faculty Office
+S&BS Gateway Floor-03,VAV.314,S&BS Gateway A02,3209,3209,Faculty Office
+S&BS Gateway Floor-03,VAV.314,S&BS Gateway A02,3215(T),3215,Faculty Office
+S&BS Gateway Floor-03,VAV.315,S&BS Gateway A02,S&BS Gateway 3201,3201,Faculty Office
+S&BS Gateway Floor-03,VAV.316,S&BS Gateway A02,S&BS Gateway 3203,3203,Faculty Office
+S&BS Gateway Floor-03,VAV.317,S&BS Gateway A01,S&BS Gateway 3101,3101,Seminar Room
+S&BS Gateway Floor-03,VAV.317,S&BS Gateway A01,3302(T),3302,Faculty Office
+S&BS Gateway Floor-03,VAV.317,S&BS Gateway A01,3304,3304,Faculty Office
+S&BS Gateway Floor-03,VAV.318,S&BS Gateway A01,S&BS Gateway 3100,3100,Seminar Room
+S&BS Gateway Floor-03,VAV.319,S&BS Gateway A01,S&BS Gateway 3313(T),3313,Faculty Office
+S&BS Gateway Floor-03,VAV.319,S&BS Gateway A01,3315,3315,Faculty Office
+S&BS Gateway Floor-03,VAV.320,S&BS Gateway A01,S&BS Gateway 3306,3306,Faculty Office
+S&BS Gateway Floor-03,VAV.320,S&BS Gateway A01,3308(T),3308,Faculty Office
+S&BS Gateway Floor-03,VAV.320,S&BS Gateway A01,3312,3312,Faculty Office
+S&BS Gateway Floor-03,VAV.320,S&BS Gateway A01,3314,3314,Faculty Office
+S&BS Gateway Floor-03,VAV.320,S&BS Gateway A01,3316,3316,Faculty Office
+S&BS Gateway Floor-03,VAV.320,S&BS Gateway A01,3318,3318,Faculty Office
+S&BS Gateway Floor-03,VAV.321,S&BS Gateway A01,S&BS Gateway 3322,3322,Faculty Office
+S&BS Gateway Floor-03,VAV.321,S&BS Gateway A01,3326,3326,Faculty Office
+S&BS Gateway Floor-03,VAV.321,S&BS Gateway A01,3328(T),3328,Faculty Office
+S&BS Gateway Floor-03,VAV.321,S&BS Gateway A01,3332,3332,Faculty Office
+S&BS Gateway Floor-03,VAV.321,S&BS Gateway A01,3334,3334,Faculty Office
+S&BS Gateway Floor-03,VAV.321,S&BS Gateway A01,3336,3336,Faculty Office
+S&BS Gateway Floor-03,VAV.322,S&BS Gateway A01,S&BS Gateway 3319,3319,Graduate Office
+S&BS Gateway Floor-03,VAV.322,S&BS Gateway A01,3321(T),3321,Graduate Office
+S&BS Gateway Floor-03,VAV.323,S&BS Gateway A01,S&BS Gateway 3338,3338,Conference Room
+S&BS Gateway Floor-03,VAV.324,S&BS Gateway A01,S&BS Gateway 3341,3341,Graduate Office
+S&BS Gateway Floor-03,VAV.324,S&BS Gateway A01,3343(T),3343,Graduate Office
+S&BS Gateway Floor-03,VAV.325,S&BS Gateway A01,S&BS Gateway 3545,3545,Graduate Office
+S&BS Gateway Floor-03,VAV.325,S&BS Gateway A01,3547(T),3547,Graduate Office
+S&BS Gateway Floor-03,VAV.325,S&BS Gateway A01,3549,3549,Graduate Office
+S&BS Gateway Floor-03,VAV.325,S&BS Gateway A01,3551,3551,Graduate Office
+S&BS Gateway Floor-03,VAV.326,S&BS Gateway A01,S&BS Gateway 3542,3542,Graduate Office
+S&BS Gateway Floor-03,VAV.326,S&BS Gateway A01,3544,3544,Graduate Office
+S&BS Gateway Floor-03,VAV.326,S&BS Gateway A01,3546(T),3546,Graduate Office
+S&BS Gateway Floor-03,VAV.326,S&BS Gateway A01,3548,3548,Graduate Office
+S&BS Gateway Floor-03,VAV.326,S&BS Gateway A01,3552,3552,Graduate Office
+S&BS Gateway Floor-03,VAV.326,S&BS Gateway A01,3554,3554,Graduate Office
+S&BS Gateway Floor-03,VAV.327,S&BS Gateway A01,S&BS Gateway 3556,3556,Graduate Office
+S&BS Gateway Floor-03,VAV.327,S&BS Gateway A01,3558,3558,Graduate Office
+S&BS Gateway Floor-03,VAV.327,S&BS Gateway A01,3562,3562,Graduate Office
+S&BS Gateway Floor-03,VAV.327,S&BS Gateway A01,3564,3564,Graduate Office
+S&BS Gateway Floor-03,VAV.327,S&BS Gateway A01,3566(T),3566,Graduate Office
+S&BS Gateway Floor-03,VAV.328,S&BS Gateway A01,S&BS Gateway 3553,3553,Graduate Office
+S&BS Gateway Floor-03,VAV.328,S&BS Gateway A01,3555(T),3555,Graduate Office
+S&BS Gateway Floor-03,VAV.329,S&BS Gateway A01,S&BS Gateway 3323,3323,Faculty Office
+S&BS Gateway Floor-03,VAV.330,S&BS Gateway A01,S&BS Gateway 3568,3568,Graduate Office
+S&BS Gateway Floor-03,VAV.331,S&BS Gateway A01,,Unassigned,Unassigned
+S&BS Gateway Floor-03,VAV.332,S&BS Gateway A01,S&BS Gateway Corridor,Corridor,Corridor
+S&BS Gateway Floor-03,VAV.333,S&BS Gateway A01,,Unassigned,Unassigned
+S&BS Gateway Floor-03,VAV.334,S&BS Gateway A01,,Unassigned,Unassigned
+S&BS Gateway Floor-04,VAV.401,S&BS Gateway A02,S&BS Gateway 4272(T),4272,Graduate Study Space
+S&BS Gateway Floor-04,VAV.401,S&BS Gateway A02,4274,4274,Graduate Study Space
+S&BS Gateway Floor-04,VAV.402,S&BS Gateway A02,S&BS Gateway 4276,4276,Graduate Study Space
+S&BS Gateway Floor-04,VAV.403,S&BS Gateway A02,S&BS Gateway 4252,4252,Graduate Office
+S&BS Gateway Floor-04,VAV.403,S&BS Gateway A02,4254,4254,Graduate Office
+S&BS Gateway Floor-04,VAV.403,S&BS Gateway A02,4264,4264,Graduate Office
+S&BS Gateway Floor-04,VAV.403,S&BS Gateway A02,4262(T),4262,Graduate Office
+S&BS Gateway Floor-04,VAV.404,S&BS Gateway A02,S&BS Gateway 4240,4240,Graduate Study Space
+S&BS Gateway Floor-04,VAV.404,S&BS Gateway A02,4258(T),4258,Graduate Office
+S&BS Gateway Floor-04,VAV.404,S&BS Gateway A02,4266,4266,Graduate Office
+S&BS Gateway Floor-04,VAV.404,S&BS Gateway A02,4260,4260,Graduate Office
+S&BS Gateway Floor-04,VAV.405,S&BS Gateway A02,S&BS Gateway 4242(T),4242,Graduate Office
+S&BS Gateway Floor-04,VAV.405,S&BS Gateway A02,4244,4244,Graduate Office
+S&BS Gateway Floor-04,VAV.406,S&BS Gateway A02,S&BS Gateway 4220,4220,General Assignment Classroom
+S&BS Gateway Floor-04,VAV.407,S&BS Gateway A02,S&BS Gateway 4222,4222,Graduate Office
+S&BS Gateway Floor-04,VAV.407,S&BS Gateway A02,4246(T),4246,Graduate Office
+S&BS Gateway Floor-04,VAV.408,S&BS Gateway A02,S&BS Gateway 4210,4210,General Assignment Classroom
+S&BS Gateway Floor-04,VAV.409,S&BS Gateway A02,S&BS Gateway 4210,4210,General Assignment Classroom
+S&BS Gateway Floor-04,VAV.410,S&BS Gateway A02,S&BS Gateway 4105,4105,Support Room
+S&BS Gateway Floor-04,VAV.411,S&BS Gateway A02,S&BS Gateway 4261(T),4261,Graduate Study Space
+S&BS Gateway Floor-04,VAV.411,S&BS Gateway A02,W4263,4263,Graduate Office
+S&BS Gateway Floor-04,VAV.412,S&BS Gateway A02,S&BS Gateway 4265,4265,Graduate Study Space
+S&BS Gateway Floor-04,VAV.413,S&BS Gateway A02,S&BS Gateway 4241,4241,Graduate Office
+S&BS Gateway Floor-04,VAV.414,S&BS Gateway A02,S&BS Gateway 4245,4245,Graduate Office
+S&BS Gateway Floor-04,VAV.414,S&BS Gateway A02,4247(T),4247,Graduate Office
+S&BS Gateway Floor-04,VAV.415,S&BS Gateway A02,S&BS Gateway 4231(T),4231,Graduate Office
+S&BS Gateway Floor-04,VAV.415,S&BS Gateway A02,4233,4233,Graduate Office
+S&BS Gateway Floor-04,VAV.416,S&BS Gateway A02,S&BS Gateway 4221,4221,Graduate Office
+S&BS Gateway Floor-04,VAV.416,S&BS Gateway A02,4223(T),4223,Graduate Office
+S&BS Gateway Floor-04,VAV.417,S&BS Gateway A02,S&BS Gateway 4225,4225,Conference Room
+S&BS Gateway Floor-04,VAV.418,S&BS Gateway A02,S&BS Gateway 4215,4215,Faculty Office
+S&BS Gateway Floor-04,VAV.418,S&BS Gateway A02,4217(T),4217,Faculty Office
+S&BS Gateway Floor-04,VAV.418,S&BS Gateway A02,4219,4219,Faculty Office
+S&BS Gateway Floor-04,VAV.419,S&BS Gateway A02,S&BS Gateway 4203(T),4203,Faculty Office
+S&BS Gateway Floor-04,VAV.419,S&BS Gateway A02,4205,4205,Faculty Office
+S&BS Gateway Floor-04,VAV.419,S&BS Gateway A02,4207,4207,Faculty Office
+S&BS Gateway Floor-04,VAV.419,S&BS Gateway A02,4209,4209,Faculty Office
+S&BS Gateway Floor-04,VAV.420,S&BS Gateway A02,S&BS Gateway 4201,4201,Faculty Office
+S&BS Gateway Floor-04,VAV.422,S&BS Gateway A01,S&BS Gateway 4101,4101,Seminar Room
+S&BS Gateway Floor-04,VAV.422,S&BS Gateway A01,4302(T),4302,Faculty Office
+S&BS Gateway Floor-04,VAV.422,S&BS Gateway A01,4304,4304,Faculty Office
+S&BS Gateway Floor-04,VAV.423,S&BS Gateway A01,S&BS Gateway 4311,4311,Faculty Office
+S&BS Gateway Floor-04,VAV.423,S&BS Gateway A01,4313(T),4313,Faculty Office
+S&BS Gateway Floor-04,VAV.423,S&BS Gateway A01,4315,4315,Faculty Office
+S&BS Gateway Floor-04,VAV.424,S&BS Gateway A01,S&BS Gateway 4306,4306,Faculty Office
+S&BS Gateway Floor-04,VAV.424,S&BS Gateway A01,4308(T),4308,Faculty Office
+S&BS Gateway Floor-04,VAV.424,S&BS Gateway A01,4312,4312,Faculty Office
+S&BS Gateway Floor-04,VAV.424,S&BS Gateway A01,4314,4314,Faculty Office
+S&BS Gateway Floor-04,VAV.424,S&BS Gateway A01,4316,4316,Faculty Office
+S&BS Gateway Floor-04,VAV.424,S&BS Gateway A01,4318,4318,Faculty Office
+S&BS Gateway Floor-04,VAV.425,S&BS Gateway A01,S&BS Gateway 4322,4322,Faculty Office
+S&BS Gateway Floor-04,VAV.425,S&BS Gateway A01,4324,4324,Faculty Office
+S&BS Gateway Floor-04,VAV.425,S&BS Gateway A01,4326,4326,Faculty Office
+S&BS Gateway Floor-04,VAV.425,S&BS Gateway A01,4328,4328,Faculty Office
+S&BS Gateway Floor-04,VAV.425,S&BS Gateway A01,4332(T),4332,Faculty Office
+S&BS Gateway Floor-04,VAV.425,S&BS Gateway A01,4334,4334,Faculty Office
+S&BS Gateway Floor-04,VAV.426,S&BS Gateway A01,S&BS Gateway 4319,4319,Faculty Office
+S&BS Gateway Floor-04,VAV.426,S&BS Gateway A01,4321(T),4321,Faculty Office
+S&BS Gateway Floor-04,VAV.427,S&BS Gateway A01,S&BS Gateway 4336,4336,Conference Room
+S&BS Gateway Floor-04,VAV.428,S&BS Gateway A01,S&BS Gateway 4341(T),4341,Graduate Office
+S&BS Gateway Floor-04,VAV.428,S&BS Gateway A01,4343,4343,Graduate Office
+S&BS Gateway Floor-04,VAV.428,S&BS Gateway A01,4345,4345,Graduate Office
+S&BS Gateway Floor-04,VAV.429,S&BS Gateway A02,S&BS Gateway 4536(T),4536,Graduate Office
+S&BS Gateway Floor-04,VAV.429,S&BS Gateway A02,4538,4538,Graduate Office
+S&BS Gateway Floor-04,VAV.429,S&BS Gateway A02,4542,4542,Graduate Office
+S&BS Gateway Floor-04,VAV.429,S&BS Gateway A02,4544,4544,Graduate Office
+S&BS Gateway Floor-04,VAV.430,S&BS Gateway A01,S&BS Gateway 4545,4545,Graduate Office
+S&BS Gateway Floor-04,VAV.430,S&BS Gateway A01,4547(T),4547,Graduate Office
+S&BS Gateway Floor-04,VAV.430,S&BS Gateway A01,4549,4549,Graduate Office
+S&BS Gateway Floor-04,VAV.431,S&BS Gateway A01,S&BS Gateway 4546(T),4546,Graduate Office
+S&BS Gateway Floor-04,VAV.431,S&BS Gateway A01,4548,4548,Graduate Office
+S&BS Gateway Floor-04,VAV.431,S&BS Gateway A01,4552,4552,Graduate Office
+S&BS Gateway Floor-04,VAV.431,S&BS Gateway A01,4554,4554,Graduate Office
+S&BS Gateway Floor-04,VAV.432,S&BS Gateway A01,S&BS Gateway 4556,4556,Graduate Office
+S&BS Gateway Floor-04,VAV.432,S&BS Gateway A01,4558,4558,Graduate Office
+S&BS Gateway Floor-04,VAV.432,S&BS Gateway A01,4562,4562,Graduate Office
+S&BS Gateway Floor-04,VAV.432,S&BS Gateway A01,4564,4564,Graduate Office
+S&BS Gateway Floor-04,VAV.432,S&BS Gateway A01,4566(T),4566,Graduate Office
+S&BS Gateway Floor-04,VAV.433,S&BS Gateway A01,S&BS Gateway 4551(T),4551,Graduate Office
+S&BS Gateway Floor-04,VAV.433,S&BS Gateway A01,4553,4553,Graduate Office
+S&BS Gateway Floor-04,VAV.434,S&BS Gateway A01,S&BS Gateway 4323,4323,Conference Room
+S&BS Gateway Floor-04,VAV.435,S&BS Gateway A01,S&BS Gateway 4568,4568,Graduate Office
+S&BS Gateway Floor-04,VAV.436,S&BS Gateway A02,S&BS Gateway Lobby,Lobby,Lobby
+S&BS Gateway Floor-04,VAV.437,S&BS Gateway A01,S&BS Gateway Corridor,Corridor,Corridor
+S&BS Gateway Floor-04,VAV.438,S&BS Gateway A01,S&BS Gateway Corridor,Corridor,Corridor
+S&BS Gateway Floor-04,VAV.439,S&BS Gateway A01,S&BS Gateway Corridor,Corridor,Corridor
+S&BS Gateway Floor-04,VAV.440,S&BS Gateway A02,S&BS Gateway Lobby,Lobby,Lobby
+S&BS Gateway Floor-05,VAV.501,S&BS Gateway A02,S&BS Gateway 5414(T),5414,Administrative Office
+S&BS Gateway Floor-05,VAV.501,S&BS Gateway A02,5416,5416,Administrative Office
+S&BS Gateway Floor-05,VAV.502,S&BS Gateway A02,S&BS Gateway 5220,5220,Faculty Office
+S&BS Gateway Floor-05,VAV.502,S&BS Gateway A02,5418(T),5418,Administrative Office
+S&BS Gateway Floor-05,VAV.503,S&BS Gateway A02,S&BS Gateway 5218,5218,Faculty Office
+S&BS Gateway Floor-05,VAV.504,S&BS Gateway A02,S&BS Gateway 5212,5212,Faculty Office
+S&BS Gateway Floor-05,VAV.504,S&BS Gateway A02,5214(T),5214,Faculty Office
+S&BS Gateway Floor-05,VAV.504,S&BS Gateway A02,5216,5216,Faculty Office
+S&BS Gateway Floor-05,VAV.505,S&BS Gateway A02,S&BS Gateway 5415(T),5415,Administrative Office
+S&BS Gateway Floor-05,VAV.505,S&BS Gateway A02,5417,5417,Administrative Office
+S&BS Gateway Floor-05,VAV.506,S&BS Gateway A02,S&BS Gateway 5209,5209,Faculty Office
+S&BS Gateway Floor-05,VAV.506,S&BS Gateway A02,5211(T),5211,Faculty Office
+S&BS Gateway Floor-05,VAV.506,S&BS Gateway A02,5409,5409,Administrative Office
+S&BS Gateway Floor-05,VAV.506,S&BS Gateway A02,5411,5411,Administrative Office
+S&BS Gateway Floor-05,VAV.506,S&BS Gateway A02,5413,5413,Administrative Office
+S&BS Gateway Floor-05,VAV.507,S&BS Gateway A02,S&BS Gateway 5404,5404,Administrative Office
+S&BS Gateway Floor-05,VAV.507,S&BS Gateway A02,5406,5406,Administrative Office
+S&BS Gateway Floor-05,VAV.507,S&BS Gateway A02,5408,5408,Administrative Office
+S&BS Gateway Floor-05,VAV.507,S&BS Gateway A02,5410(T),5410,Administrative Office
+S&BS Gateway Floor-05,VAV.507,S&BS Gateway A02,5412,5412,Administrative Office
+S&BS Gateway Floor-05,VAV.508,S&BS Gateway A02,S&BS Gateway 5402,5402,Administrative Office
+S&BS Gateway Floor-05,VAV.509,S&BS Gateway A02,S&BS Gateway 5202,5202,Faculty Office
+S&BS Gateway Floor-05,VAV.509,S&BS Gateway A02,5204,5204,Faculty Office
+S&BS Gateway Floor-05,VAV.509,S&BS Gateway A02,5206,5206,Faculty Office
+S&BS Gateway Floor-05,VAV.509,S&BS Gateway A02,5208,5208,Faculty Office
+S&BS Gateway Floor-05,VAV.509,S&BS Gateway A02,5210(T),5210,Faculty Office
+S&BS Gateway Floor-05,VAV.510,S&BS Gateway A02,S&BS Gateway Lobby,Lobby,Lobby
+S&BS Gateway Floor-05,VAV.511,S&BS Gateway A01,S&BS Gateway 5302,5302,Faculty Office
+S&BS Gateway Floor-05,VAV.512,S&BS Gateway A01,S&BS Gateway 5304,5304,Faculty Office
+S&BS Gateway Floor-05,VAV.513,S&BS Gateway A01,S&BS Gateway 5306,5306,Faculty Office
+S&BS Gateway Floor-05,VAV.513,S&BS Gateway A01,5308,5308,Faculty Office
+S&BS Gateway Floor-05,VAV.513,S&BS Gateway A01,5312,5312,Faculty Office
+S&BS Gateway Floor-05,VAV.513,S&BS Gateway A01,5314,5314,Faculty Office
+S&BS Gateway Floor-05,VAV.513,S&BS Gateway A01,5316(T),5316,Faculty Office
+S&BS Gateway Floor-05,VAV.514,S&BS Gateway A01,S&BS Gateway 5311,5311,Faculty Office
+S&BS Gateway Floor-05,VAV.514,S&BS Gateway A01,5313,5313,Faculty Office
+S&BS Gateway Floor-05,VAV.514,S&BS Gateway A01,5545(T),5545,Graduate Office
+S&BS Gateway Floor-05,VAV.514,S&BS Gateway A01,5547,5547,Graduate Office
+S&BS Gateway Floor-05,VAV.515,S&BS Gateway A01,S&BS Gateway 5318,5318,Conference Room
+S&BS Gateway Floor-05,VAV.515,S&BS Gateway A01,5322(T),5322,Conference Room
+S&BS Gateway Floor-05,VAV.516,S&BS Gateway A01,S&BS Gateway 5341(T),5341,Graduate Office
+S&BS Gateway Floor-05,VAV.516,S&BS Gateway A01,5343,5343,Graduate Office
+S&BS Gateway Floor-05,VAV.516,S&BS Gateway A01,5345,5345,Graduate Office
+S&BS Gateway Floor-05,VAV.517,S&BS Gateway A01,S&BS Gateway 5105,5105,Lecture Hall
+S&BS Gateway Floor-05,VAV.518,S&BS Gateway A01,S&BS Gateway 5542,5542,Graduate Office
+S&BS Gateway Floor-05,VAV.519,S&BS Gateway A01,S&BS Gateway 5548,5548,Graduate Office
+S&BS Gateway Floor-05,VAV.519,S&BS Gateway A01,5552,5552,Graduate Office
+S&BS Gateway Floor-05,VAV.519,S&BS Gateway A01,5554(T),5554,Graduate Office
+S&BS Gateway Floor-05,VAV.520,S&BS Gateway A01,S&BS Gateway 5556,5556,Graduate Office
+S&BS Gateway Floor-05,VAV.520,S&BS Gateway A01,5558,5558,Graduate Office
+S&BS Gateway Floor-05,VAV.520,S&BS Gateway A01,5562(T),5562,Graduate Office
+S&BS Gateway Floor-05,VAV.521,S&BS Gateway A01,S&BS Gateway 5315,5315,Faculty Office
+S&BS Gateway Floor-05,VAV.521,S&BS Gateway A01,5549(T),5549,Graduate Office
+S&BS Gateway Floor-05,VAV.521,S&BS Gateway A01,5551,5551,Graduate Office
+S&BS Gateway Floor-05,VAV.521A,S&BS Gateway A02,S&BS Gateway 5213,5213,Faculty Office
+S&BS Gateway Floor-05,VAV.521A,S&BS Gateway A02,5215(T),5215,Faculty Office
+S&BS Gateway Floor-05,VAV.521A,S&BS Gateway A02,5217,5217,Faculty Office
+S&BS Gateway Floor-05,VAV.522,S&BS Gateway A01,S&BS Gateway Corridor,Corridor,Corridor
+S&BS Gateway Floor-05,VAV.523,S&BS Gateway A01,S&BS Gateway 5548,5548,Graduate Office
+S&BS Gateway Floor-05,VAV.523,S&BS Gateway A01,5552,5552,Graduate Office
+S&BS Gateway Floor-05,VAV.523,S&BS Gateway A01,5554(T),5554,Graduate Office
