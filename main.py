@@ -1,6 +1,5 @@
 """
 Author: Aadi Agrawal
-Date: October 2026
 Purpose: A program to predict/plot room energy consumption for a smart building from HVAC data
 """
 
@@ -40,6 +39,9 @@ def main(building: str, purpose: int, rooms: None | int | str) -> None:
     # Calculate ILM and NILM energy consumption associated with each VAV
     vav_ilm = models.predict_ilm_consumption(building_vavs, hvac_file)
     vav_nilm = models.predict_nilm_consumption(building_vavs, hvac_file)
+
+    print(vav_ilm)
+    print(vav_nilm)
 
     # Transform from VAV energy consumption to room energy consumption
     rooms = _get_rooms_to_predict(building_vavs, rooms)
