@@ -15,7 +15,7 @@ from buildings.building_data import VAV
 """
 If chosen to not use the command line, can configure the program using these global variables
 """
-BUILDING = 'Bren Hall'    # the smart building in which room energy consumption is investigated
+BUILDING = 'BrenHall'    # the smart building in which room energy consumption is investigated
 PURPOSE = 'predict'       # 0 = predict, 1 = plot
 ROOMS = None              # None = all rooms, INT = specific room, STR = room type
 # ───────────────────────────────────────────────────────────────────────────────────────
@@ -31,9 +31,16 @@ def _get_rooms_to_predict(vavs: list[VAV], rooms: None | int | str) -> set[int]:
 
 def main(building: str, purpose: int, rooms: None | int | str) -> None:
     # Get Building VAV information
-    b = 'BrenHall' if building == 'Bren Hall' else 'SBSG'
-    vav_room_mapping = Path(f'data/{b}_vav_room_mapping.csv')
-    hvac_file = Path(f'data/{b}2025_combined.csv')
+    vav_room_mapping = Path(f'data/{building}_vav_room_mapping.csv')
+    hvac_file = Path(f'data/{building}2025_combined.csv')
+
+    if not vav_room_mapping.is_file():
+        print(f'Mising {vav_room_mapping} file')
+        return
+    if not hvac_file.is_file():
+        print(f'Missing {hvac_file} file')
+        return
+
     building_vavs = buildings.get_building_vavs(vav_room_mapping)
 
     # Calculate ILM and NILM energy consumption associated with each VAV
