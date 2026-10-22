@@ -1,42 +1,52 @@
-from pathlib import Path
+"""
+Intrusive Load Monitoring (ILM) Predictor.
 
+Calculates the physics-based energy consumption of each VAV using explicit sensor data
+(Airflow, Supply Temps, Zone Temps, and AHU Fans).
+"""
+
+from typing import Dict, List, Set, Iterable
 from buildings.building_data import VAV
-from models.hvac import ahu_fan_kbtu, collect_vav_thermals, load_hvac_data, vav_fraction, vavs_by_ahu
+from models.hvac import HVACRecord, SENSIBLE_HEAT_CONSTANT, KWH_TO_KBTU
 
 
-def predict_ilm_consumption(vavs: list[VAV], hvac_file: Path) -> dict[VAV, list[float]]:
+def predict_ilm_consumption(vavs: Iterable[VAV], record: HVACRecord) -> Dict[VAV, float]:
     """
-    Intrusive Load Monitoring: physics-based energy per VAV from its own sensors.
-
-        cooling = 1.08 x CFM x max(T_zone - T_vav_supply, 0)
-        reheat  = 1.08 x CFM x max(T_vav_supply - T_ahu_supply, 0)
-        fan     = the AHU's fan energy, split between its VAVs by share of airflow
-
-    Uses whatever sensors exist: cooling needs zone temp, reheat needs the AHU supply temp, fan needs the
-    fan power columns; anything unavailable contributes 0 (and is logged) rather than failing.
-
-    Fan energy is split by airflow among the VAVs passed in, then scaled by the fraction of the building's
-    VAVs that were passed (see hvac_common.vav_fraction) so a partial list is not given the whole fan load.
-
-    Returns {VAV: [kBTU for each interval]}, one value per row of the HVAC file (15 min each).
-    VAVs with no usable sensor data get a list of zeros. Use models.get_timestamps(hvac_file) for the time axis.
+    Calculates ILM energy consumption for a single timestep based on thermodynamics and returns
+    a mapping of each VAV to its calculated energy consumption in kBTU.
     """
-    data = load_hvac_data(hvac_file)
-    thermals = collect_vav_thermals(data, vavs)
-    fraction = vav_fraction(data, vavs)
-    result = {vav: [0.0] * data.n_rows for vav in vavs}
+    result = {vav: 0.0 for vav in vavs}
+    h = record.interval_hours
 
-    for ahu_ref, ahu_vavs in vavs_by_ahu(vavs).items():
-        usable = [(v, thermals[v]) for v in ahu_vavs if thermals[v] is not None]
-        if not usable:
-            continue
+    # Group VAVs by AHU to calculate system-level metrics
+    ahu_vavs_map: Dict[str, List[VAV]] = {}
+    for vav in vavs:
+        ahu_vavs_map.setdefault(vav.ahu_ref, []).append(vav)
 
-        system_saf = sum(t.saf for _, t in usable).replace(0, float("nan"))
-        fan_kbtu = ahu_fan_kbtu(data, ahu_ref) * fraction
+    for ahu_ref, ahu_vavs in ahu_vavs_map.items():
+        # Calculate proportional fan share distribution requirements
+        system_saf = sum(record.vav_data.get(v.vav_name, {}).get('saf', 0.0) for v in ahu_vavs)
+        fan_kbtu = record.ahu_data.get(ahu_ref, {}).get('fan_kw', 0.0) * h * KWH_TO_KBTU
+        ahu_sat = record.ahu_data.get(ahu_ref, {}).get('sat', 0.0)
 
-        for vav, t in usable:
-            saf_share = (t.saf / system_saf).fillna(0).clip(0, 1)
-            total = t.q_cool_kbtu + t.q_reheat_kbtu + saf_share * fan_kbtu
-            result[vav] = total.tolist()
+        for vav in ahu_vavs:
+            vav_dat = record.vav_data.get(vav.vav_name, {})
+            saf = vav_dat.get('saf', 0.0)
+            sat = vav_dat.get('sat', 0.0)
+            zt = vav_dat.get('zt', 0.0)
+
+            q_cool, q_reheat = 0.0, 0.0
+
+            # Physics-based cooling and reheat derivation
+            if saf > 0:
+                if zt > sat:
+                    q_cool = SENSIBLE_HEAT_CONSTANT * saf * (zt - sat) * h / 1000
+                if sat > ahu_sat and ahu_sat > 0:
+                    q_reheat = SENSIBLE_HEAT_CONSTANT * saf * (sat - ahu_sat) * h / 1000
+
+            # Fan energy attributed to this VAV based on proportional airflow
+            saf_share = (saf / system_saf) if system_saf > 0 else 0.0
+
+            result[vav] = q_cool + q_reheat + (saf_share * fan_kbtu)
 
     return result

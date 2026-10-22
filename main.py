@@ -5,6 +5,8 @@ Purpose: A program to predict/plot room energy consumption for a smart building 
 
 import sys
 from pathlib import Path
+from collections import defaultdict
+from typing import Set, Union, Optional
 
 import buildings
 import models
@@ -21,12 +23,12 @@ ROOMS = None              # None = all rooms, INT = specific room, STR = room ty
 # ───────────────────────────────────────────────────────────────────────────────────────
 
 
-def _get_rooms_to_predict(vavs: list[VAV], rooms: None | int | str) -> set[int]:
+def _get_rooms_to_predict(vavs: Set[VAV], rooms: Union[None, int, str]) -> Set[int]:
     if rooms is None:
-        return set(room.room_num for vav in vavs for room in vav.rooms_associated if room.room_num not in rooms)
-    if type(rooms) is str:
-        return set(room.room_num for vav in vavs for room in vav.rooms_associated if room.room_type == rooms)
-    return set([rooms])
+        return {room.room_num for vav in vavs for room in vav.rooms_associated}
+    if isinstance(rooms, str):
+        return {room.room_num for vav in vavs for room in vav.rooms_associated if room.room_type == rooms}
+    return {rooms}
 
 
 def main(building: str, purpose: int, rooms: None | int | str) -> None:
@@ -41,33 +43,49 @@ def main(building: str, purpose: int, rooms: None | int | str) -> None:
         print(f'Missing {hvac_file} file')
         return
 
-    building_vavs = buildings.get_building_vavs(vav_room_mapping)
+    try:
+        building_vavs = buildings.get_building_vavs(vav_room_mapping)
+    except ValueError as e:
+        print(e)
+        return
 
-    # Calculate ILM and NILM energy consumption associated with each VAV
-    vav_ilm = models.predict_ilm_consumption(building_vavs, hvac_file)
-    vav_nilm = models.predict_nilm_consumption(building_vavs, hvac_file)
+    target_rooms = _get_rooms_to_predict(building_vavs, rooms)
 
-    print(vav_ilm)
-    print(vav_nilm)
+    accumulator = models.EnergyAccumulator()
+    prefix = "Bren Hall" if building in ("Bren Hall", "BrenHall") else building
 
-    # Transform from VAV energy consumption to room energy consumption
-    rooms = _get_rooms_to_predict(building_vavs, rooms)
+    generator = models.hvac_record_generator(hvac_file, building_vavs, prefix = prefix)
+    for record in generator:
+        ilm_results = models.predict_ilm_consumption(building_vavs, record)
+        nilm_results = models.predict_nilm_consumption(building_vavs, record)
 
+        accumulator.add_record(record, ilm_results, nilm_results)
 
-    # fix display output and how to handle different rooms
-    # room_consumption = dict(zip(rooms, [0, 0] * len(rooms)))
-    # for vav in vav_ilm:
-    #     for room in vav.rooms_associated:
-    #         room_consumption[room][0] += vav_ilm[vav] / len(vav.rooms_associated)
-    # for vav in vav_nilm:
-    #     for room in vav.rooms_associated:
-    #         room_consumption[room][1] += vav_nilm[vav] / len(vav.rooms_associated)
-    #
-    # # Print predictions or plot them
-    # if purpose == 0:
-    #     print(room_consumption)
-    # else:
-    #     pass
+    room_consumption = defaultdict(lambda: defaultdict(lambda: [0.0, 0.0]))
+
+    for time_key, vav_data in accumulator.consumption.items():
+        for vav in building_vavs:
+            if vav.vav_name not in vav_data:
+                continue
+
+            ilm_energy, nilm_energy = vav_data[vav.vav_name]
+            num_rooms = len(vav.rooms_associated)
+            if num_rooms == 0:
+                continue
+
+            for room in vav.rooms_associated:
+                if room.room_num in target_rooms:
+                    room_consumption[time_key][room.room_num][0] += (ilm_energy / num_rooms)
+                    room_consumption[time_key][room.room_num][1] += (nilm_energy / num_rooms)
+
+    if purpose == 0:
+        for time_key, rooms_data in sorted(room_consumption.items()):
+            day, hr = time_key
+            print(f"--- Day {day}, Hour {hr:02d} ---")
+            for rm, energy in rooms_data.items():
+                print(f" Room {rm}: ILM = {energy[0]:.2f} kBTU, NILM = {energy[1]:.2f} kBTU")
+    else:
+        print("Plotting functionality not yet implemented.")
 
 
 if __name__ == '__main__':
@@ -83,8 +101,8 @@ if __name__ == '__main__':
         print("Usage: main.py building purpose rooms")
         exit(1)
 
-    if BUILDING != 'Bren Hall' and BUILDING != 'SBSGateway':
-        print("BUILDING must be either Bren Hall or SBSGateway")
+    if BUILDING != 'BrenHall' and BUILDING != 'SBSGateway':
+        print("BUILDING must be either BrenHall or SBSGateway")
         exit(1)
 
     if PURPOSE != 'predict' and PURPOSE != 'plot':
