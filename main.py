@@ -10,6 +10,7 @@ from typing import Set, Union, Optional
 
 import buildings
 import models
+import plot
 from buildings.building_data import VAV
 
 
@@ -18,7 +19,7 @@ from buildings.building_data import VAV
 If chosen to not use the command line, can configure the program using these global variables
 """
 BUILDING = 'BrenHall'    # the smart building in which room energy consumption is investigated
-PURPOSE = 'predict'       # 0 = predict, 1 = plot
+PURPOSE = 'plot'       # 0 = predict, 1 = plot
 ROOMS = None              # None = all rooms, INT = specific room, STR = room type
 # ───────────────────────────────────────────────────────────────────────────────────────
 
@@ -29,6 +30,16 @@ def _get_rooms_to_predict(vavs: Set[VAV], rooms: Union[None, int, str]) -> Set[i
     if isinstance(rooms, str):
         return {room.room_num for vav in vavs for room in vav.rooms_associated if room.room_type == rooms}
     return {rooms}
+
+
+def _print_room_energy_consumption(room_consumption):
+    DAYS_OF_WEEK = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+    for time_key, rooms_data in sorted(room_consumption.items()):
+        day, hr = time_key
+        print(f"--- {DAYS_OF_WEEK[day]} {hr:02d}:00 ---")
+        for rm, energy in sorted(rooms_data.items()):
+            print(f" Room {rm}: ILM = {energy[0]:.2f} kBTU, NILM = {energy[1]:.2f} kBTU")
 
 
 def main(building: str, purpose: int, rooms: None | int | str) -> None:
@@ -69,23 +80,19 @@ def main(building: str, purpose: int, rooms: None | int | str) -> None:
                 continue
 
             ilm_energy, nilm_energy = vav_data[vav.vav_name]
-            num_rooms = len(vav.rooms_associated)
-            if num_rooms == 0:
-                continue
+            total_weight = sum(r.get_room_weight() for r in vav.rooms_associated)
 
             for room in vav.rooms_associated:
                 if room.room_num in target_rooms:
-                    room_consumption[time_key][room.room_num][0] += (ilm_energy / num_rooms)
-                    room_consumption[time_key][room.room_num][1] += (nilm_energy / num_rooms)
+                    room_share = room.get_room_weight() / total_weight
+                    room_consumption[time_key][room.room_num][0] += (ilm_energy * room_share)
+                    room_consumption[time_key][room.room_num][1] += (nilm_energy * room_share)
 
     if purpose == 0:
-        for time_key, rooms_data in sorted(room_consumption.items()):
-            day, hr = time_key
-            print(f"--- Day {day}, Hour {hr:02d} ---")
-            for rm, energy in rooms_data.items():
-                print(f" Room {rm}: ILM = {energy[0]:.2f} kBTU, NILM = {energy[1]:.2f} kBTU")
+        _print_room_energy_consumption(room_consumption)
     else:
-        print("Plotting functionality not yet implemented.")
+        print("Generating plots...")
+        plot.generate_plots(room_consumption, building_vavs)
 
 
 if __name__ == '__main__':

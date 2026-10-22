@@ -22,6 +22,13 @@ class Room:
     def __repr__(self) -> str:
         return f"Room({self.room_num}, {self.room_type!r}, cap={self.room_capacity}, {self.room_bucket!r})"
 
+    def get_room_weight(self) -> float:
+        """
+        Returns the proportional share weight based on the room size bucket.
+        """
+        weights = {'S': 1.0, 'M': 2.0, 'L': 4.0, 'XL': 8.0}
+        return weights.get(self.room_bucket.strip().upper(), 1.0)
+
 
 class VAV:
     """
